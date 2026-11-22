@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perit | Student and project builder, Sakarya</title>
+<meta name="description" content="Personal site of Perit, a 10th grade student in Sakarya, Turkey who loves learning, improving and creating.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=10">
+</head>
+<body>
+<canvas id="bubbles" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <div class="wrap nav__bar">
+    <a class="logo" href="#top">Perit</a>
+    <nav aria-label="Main">
+      <a href="#projects">Projects</a>
+      <a href="#stack">Stack</a>
+      <a href="#school">School</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <p class="kicker">10th grade &middot; Sakarya, Turkey</p>
+    <h1>Hi, I am Perit.</h1>
+    <p class="lead">I am a young person who loves learning, improving myself and creating things.</p>
+    <div class="links">
+      <a class="btn btn--fill" href="mailto:mperitv@gmail.com">Email</a>
+      <a class="btn" href="https://github.com/mperitv" rel="noopener">GitHub</a>
+      <a class="btn" href="https://hackclub.enterprise.slack.com/team/U0BBA08D1LJ" rel="noopener">Slack</a>
+    </div>
+  </section>
+
+  <section class="block block--proj wrap" id="projects" aria-labelledby="p-h">
+    <div class="proj__text">
+      <h2 id="p-h">Projects</h2>
+      <ol class="list">
+      <li><div class="list__head"><h3>Haven Sakarya</h3><span class="tag">Point of contact</span></div><p>A 24-hour game jam held in 200+ cities across 60+ countries. I lead the Sakarya site.</p></li>
+      <li><div class="list__head"><h3>Horizons Europe</h3><span class="tag">Participant</span></div><p>A three-day hackathon in Berlin. Travel, food and drink were all covered.</p></li>
+      <li><div class="list__head"><h3>#cut</h3><span class="tag">Organizer</span></div><p>Participants wrote code that made music. The songs were pressed onto CDs and mailed to them.</p></li>
+      <li><div class="list__head"><h3>#save</h3><span class="tag">Founder</span></div><p>Participants write code, and every hour coded sends a donation to Make-A-Wish to help grant children's wishes. Still in development; legal obstacles and false claims about it have been overcome.</p></li>
+    </ol>
+    </div>
+    <div class="collage">
+      <figure class="shot s1"><img src="assets/photos/haven-group.jpg" alt="Group photo of the Haven Sakarya participants in Haven t-shirts" loading="lazy"><figcaption>Haven Sakarya</figcaption></figure>
+      <figure class="shot s2"><img src="assets/photos/horizons-berlin.jpg" alt="Group photo of all participants at Horizons Europe in Berlin" loading="lazy"><figcaption>Horizons Europe, Berlin</figcaption></figure>
+      <figure class="shot s3"><img src="assets/photos/haven-jam.jpg" alt="Participants gathered around a table during the game jam" loading="lazy"><figcaption>Game jam</figcaption></figure>
+      <figure class="shot s4"><img src="assets/photos/haven-coding.jpg" alt="Two participants looking at a laptop while coding" loading="lazy"><figcaption>Coding</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="block wrap" id="stack" aria-labelledby="t-h">
+    <h2 id="t-h">Tech stack</h2>
+    <div>
+      <ul class="chips">
+        <li>Python</li><li>Java</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Wolfram Language</li>
+      </ul>
+      <h3 class="sub">Wolfram certificates</h3>
+      <ul class="certs">
+        <li>Practical Programming with Wolfram Language</li>
+        <li>Programming and Development in Wolfram Language</li>
+        <li>Wolfram Language Programming Proficiency Office Hours, attended</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block wrap" id="school" aria-labelledby="s-h">
+    <h2 id="s-h">School and awards</h2>
+    <dl class="facts">
+      <div><dt>Sakarya Cevat Ayhan Science High School</dt><dd>10th grade, GPA 96.53</dd></div>
+      <div><dt>AP Calculus BC</dt><dd>Score of 4, taken in 9th grade</dd></div>
+      <div><dt>TEKNOFEST, Technology for Humanity</dt><dd>Energy harvesting from the waste heat of air conditioners. Presented to 3 juries through BİLSEM and received full marks.</dd></div>
+      <div><dt>BİLSEM</dt><dd>Student. Accepted through a two-stage national exam, where about 2% of candidates are accepted.</dd></div>
+      <div><dt>Deneyap</dt><dd>Student. Accepted through a three-stage national exam, where about 12% of applicants are accepted.</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer class="foot" id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <div class="links">
+      <a class="btn btn--fill" href="mailto:mperitv@gmail.com">Email</a>
+      <a class="btn" href="https://github.com/mperitv" rel="noopener">GitHub</a>
+      <a class="btn" href="https://hackclub.enterprise.slack.com/team/U0BBA08D1LJ" rel="noopener">Slack</a>
+    </div>
+    <p class="small">&copy; 2026 Perit</p>
+  </div>
+</footer>
+<script src="script.js?v=6"></script>
+</body>
+</html>
